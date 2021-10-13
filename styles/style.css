@@ -80,6 +80,11 @@ body {
     margin-bottom: 0;
 }
 
+#fall-season:focus {
+    border-color: #b49248;
+    box-shadow: 0 0 0 0.25rem #b49248;
+}
+
 @media (max-device-width: 941px) {
     .city {
         display: flex;

@@ -25,6 +25,33 @@ window.onload = function(){
         document.getElementById("picture").src = src;
     }
 
+    function changeSeason(seasonName) {
+        var src1 = "";
+        var src2 = "";
+        var src3 = "";
+        var main = "";
+        
+        switch (seasonName) {
+            case "winter":                
+                break;
+            case "spring":                
+                break;
+            case "summer":                
+                break;
+            case "fall":                
+                break;
+        }
+    }
+
+    var selectSeason = document.getElementsByClassName("js-select-season")[0];
+
+    selectSeason.onchange = function() {
+        var seasonValue = this.value;
+        if (seasonValue != null) {
+
+        }
+    };
+
     var picId = getPictureId();
     
     if (picId) {
